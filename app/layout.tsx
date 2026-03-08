@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Cormorant_Garamond, Inter, Frank_Ruhl_Libre, Heebo } from 'next/font/google'
 import { LanguageProvider } from '@/hooks/useLanguage'
+import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
 const cormorant = Cormorant_Garamond({
@@ -68,6 +69,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <LanguageProvider>
           {children}
         </LanguageProvider>
+        <Analytics />
       </body>
     </html>
   )
