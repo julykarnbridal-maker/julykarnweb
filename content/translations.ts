@@ -1,0 +1,385 @@
+export type Locale = 'he' | 'en'
+
+export const translations = {
+  he: {
+    dir: 'rtl' as const,
+    lang: 'he',
+    nav: {
+      home: 'בית',
+      about: 'על המעצבת',
+      dresses: 'שמלות כלה',
+      process: 'איך זה עובד',
+      reviews: 'המלצות',
+      book: 'קבעי תור',
+      faq: 'שאלות נפוצות',
+      contact: 'צרי קשר',
+      bookCta: 'קבעי תור לפגישה אישית',
+    },
+    hero: {
+      eyebrow: 'ג\'ולי קארן בריידל',
+      headline: 'לכלה שבוחרת\nלא להיות\nכמו כולן',
+      subheadline: 'אלגנטיות. התאמה מדויקת. עיצוב על־זמני.',
+      cta: 'קבעי תור לפגישה אישית',
+      ctaSub: 'גלי את השמלה שמספרת את הסיפור שלך',
+    },
+    featured: {
+      eyebrow: 'הקולקציה',
+      headline: 'שמלות שמספרות סיפור',
+      subheadline: 'כל שמלה נולדת מחומרים איכותיים, תפירה מדויקת ועיצוב שמלווה אותך שנים',
+      viewAll: 'לכל הקולקציה',
+    },
+    designer: {
+      eyebrow: 'על המעצבת',
+      headline: 'ג\'ולי קארן',
+      body1: 'אני מלווה כלות לאחד הרגעים המשמעותיים בחייהן — לא רק כמעצבת, אלא כמישהי שמבינה את הכוח שיש לשמלה נכונה.',
+      body2: 'שנים של ניסיון בתפירה, הבנה עמוקה של מבנה הגוף, וחומרים מהמיטב — כל אלה יחד יוצרים שמלת כלה שהיא לא רק יפה, אלא גם נוחה ומרגישה נכון.',
+      body3: 'כל כלה מקבלת ממני את מלוא תשומת הלב. אני מאמינה שכל אישה ראויה לשמלה שמכבדת את הסגנון, הגוף והאישיות שלה.',
+      cta: 'הכירי את ג\'ולי',
+      experience: 'שנות ניסיון',
+      brides: 'כלות מאושרות',
+      fabrics: 'בדים פרמיום',
+    },
+    process: {
+      eyebrow: 'התהליך',
+      headline: 'המסע שלנו יחד',
+      subheadline: 'מהחלום ועד ליום החתונה — בכל שלב אני כאן',
+      steps: [
+        {
+          num: '01',
+          title: 'פגישת היכרות',
+          body: 'נפגש לשיחה ראשונה ללא התחייבות. נדבר על החזון שלך, הסגנון האישי שלך, ומה הופך אותך ל — את.',
+        },
+        {
+          num: '02',
+          title: 'עיצוב אישי',
+          body: 'אעצב את השמלה בדיוק בשבילך — בחומרים שבחרת, בסגנון שאהבת, עם פרטים שמדברים אליך.',
+        },
+        {
+          num: '03',
+          title: 'ניסיונות מדויקים',
+          body: 'כמה פגישות התאמה כדי שהשמלה תשב בדיוק כפי שצריך. כל עקמומייה, כל קו — מושלמים.',
+        },
+        {
+          num: '04',
+          title: 'יום החתונה',
+          body: 'את מגיעה בביטחון מלא. אנחנו ידענו שהשמלה תהיה ממש נכונה — ועכשיו כולם רואים את זה.',
+        },
+      ],
+      cta: 'התחילי את המסע',
+    },
+    reviews: {
+      eyebrow: 'המלצות',
+      headline: 'מה הכלות אומרות',
+      items: [
+        {
+          quote: 'עברתי יותר מ-10 סטודיות שונות בחיפוש אחר שמלת כלה, ומה שמצאתי אצל ג\'ולי שינה הכל. מעבר לקווים הנקיים והאלגנטיים של השמלות שלה, כבשה אותי היא עצמה — הרכות, היכולת להקשיב, הסבלנות האינסופית. השמלה קיבלה מחמאות שעברו בהרבה על הציפיות שלי. ממליצה מכל הלב.',
+          name: 'נועה שכטר',
+          location: 'Google',
+          wedding: 'ספטמבר 2025',
+        },
+        {
+          quote: 'וואו, ג\'ולי פשוט מדהימה! הליווי הצמוד שלה בתפירת שמלת הכלה שלי הביא לתוצאה שהייתה פשוט מושלמת! לג\'ולי יש סגנון שלא פוגשים בכל מקום — אלגנטי, עדין, עם קווים נקיים. היא עבדה עם בדים באיכות הגבוהה ביותר, הרגשתי נסיכה של ממש. מעצבת ברמה הגבוהה ביותר!',
+          name: 'Lea Ayelet Hasson',
+          location: 'Google',
+          wedding: 'פברואר 2026',
+        },
+        {
+          quote: 'ג\'ולי היא שילוב מושלם של כישרון עצום ולב רחב ורגיש. עד היום שואלים אותי מאיפה השמלה. חוויה מדהימה — ניסיון סבלני ומחושב, בחירה כנה, מדידות, התאמות, וביצוע מעולה עד לפרטים הקטנים ביותר. לא ראיתי שמלות יפות יותר, ועמדתי בעוד שישה מקומות. אין לי מילים להביע את ההכרת התודה ♥️',
+          name: 'שירה דניאל הלוינג',
+          location: 'Google',
+          wedding: 'ספטמבר 2025',
+        },
+        {
+          quote: 'יוליה היקרה שלי! הגישה שלך, קלאסית ואמנותית בנשמה, היא ללא תחרות. את עובדת מהנשמה ולא עזבת אותי עד שהייתי מרוצה ב-200%!! כל פגישה עוברת עם סבלנות אינסופית ועם שמחה! תודה מכל הלב ❤️❤️❤️',
+          name: 'Daniella Engler shemesh',
+          location: 'Google',
+          wedding: 'דצמבר 2025',
+        },
+        {
+          quote: 'ג\'ולי — מספר אחד! קודם כל אישה קסומה ונעימה, מקצוענית אמיתית, עם רגישות ותשומת לב לפרטים שלא נתקלתי בהם קודם! הייתה לי חוויה מדהימה של ליווי אישי וצמוד. ממליצה לכל כלה שרוצה לא רק להרגיש נסיכה, אלא להיות נסיכה ♥️',
+          name: 'Maya Hovav',
+          location: 'Google',
+          wedding: 'נובמבר 2025',
+        },
+        {
+          quote: 'הרשמים מביקור בסטודיו של ג\'ולי היו פשוט מושלמים! השמלות ייחודיות ובלתי נשכחות — כל דגם הוא יצירת אמנות אמיתית, עם בדים מדהימים ותשומת לב לפרטים הקטנים ביותר. מהרגע שנכנסתי הרגשתי גישה אישית, חמה ומכבדת — ג\'ולי הקסומה גרמה לי להרגיש כלה עוד לפני שבחרתי שמלה.',
+          name: 'Darya Andreeva',
+          location: 'Google',
+          wedding: 'אפריל 2025',
+        },
+      ],
+    },
+    booking: {
+      eyebrow: 'קבעי תור',
+      headline: 'מוכנה להתחיל?',
+      subheadline: 'הפגישה הראשונה היא ללא התחייבות — רק שיחה נעימה על החלום שלך',
+      form: {
+        firstName: 'שם פרטי',
+        lastName: 'שם משפחה',
+        phone: 'טלפון',
+        email: 'דוא"ל',
+        date: 'תאריך מועדף לניסיון',
+        message: 'ספרי לי קצת על עצמך ועל השמלה שחלמת עליה',
+        submit: 'שלחי פנייה',
+        submitting: 'שולח...',
+        success: 'תודה! אחזור אליך בהקדם.',
+        error: 'משהו השתבש. נסי שוב.',
+      },
+    },
+    faq: {
+      eyebrow: 'שאלות נפוצות',
+      headline: 'כל מה שרצית לדעת',
+      items: [
+        {
+          q: 'כמה זמן לוקח תהליך העיצוב?',
+          a: 'בממוצע 4–6 חודשים מהפגישה הראשונה ועד יום החתונה. מומלץ להגיע אלי כ-9-12 חודשים לפני התאריך.',
+        },
+        {
+          q: 'מה כולל המחיר?',
+          a: 'המחיר כולל את עיצוב השמלה, כל ניסיונות ההתאמה, וליווי אישי לאורך כל התהליך. אין הפתעות.',
+        },
+        {
+          q: 'איפה הסטודיו שלך?',
+          a: 'הסטודיו שלי ממוקם בתל אביב. פרטים מדויקים ישלחו לאחר קביעת הפגישה.',
+        },
+        {
+          q: 'אפשר לשנות דברים באמצע התהליך?',
+          a: 'כן — גמישות היא חלק מהשירות שלי. אנחנו עובדות יחד עד שהכל מרגיש נכון.',
+        },
+        {
+          q: 'האם אפשר להביא מישהי לפגישה?',
+          a: 'בשמחה! הבאת אמא, אחות, או חברה הכי קרובה יכולה להפוך את הפגישה לחוויה מיוחדת עוד יותר.',
+        },
+        {
+          q: 'מה טווח המחירים?',
+          a: 'השמלות שלי מתחילות מ-8,000 ש"ח. המחיר הסופי תלוי בעיצוב, בחומרים ובמורכבות. בפגישה הראשונה נדבר על תקציב.',
+        },
+      ],
+    },
+    contact: {
+      eyebrow: 'צרי קשר',
+      headline: 'בואי נדבר',
+      subheadline: 'שאלות? מוזמנת לכתוב, להתקשר, או לבוא לביקור בסטודיו',
+      phone: '+972-54-896-48-28',
+      email: 'julykarnbridal@gmail.com',
+      instagram: '@juliekarn.bridal',
+      address: 'יהודה הימית 27, תל אביב',
+      hours: 'ראשון–חמישי: 10:00–20:00 | שישי: 10:00–14:00',
+    },
+    footer: {
+      tagline: 'לכלה שבוחרת לא להיות כמו כולן',
+      links: {
+        dresses: 'שמלות כלה',
+        about: 'על המעצבת',
+        process: 'איך זה עובד',
+        book: 'קבעי תור',
+        contact: 'צרי קשר',
+        privacy: 'מדיניות פרטיות',
+      },
+      copyright: '© 2025 Julie Karn Bridal. כל הזכויות שמורות.',
+      madeBy: 'עוצב עם אהבה',
+    },
+    seo: {
+      home: {
+        title: 'Julie Karn Bridal | שמלות כלה בעיצוב אישי | תל אביב',
+        description: 'שמלות כלה מינימליסטיות ואלגנטיות בעיצוב אישי. לכלה שבוחרת לא להיות כמו כולן. סטודיו בתל אביב.',
+      },
+      dresses: {
+        title: 'קולקציית שמלות כלה | Julie Karn Bridal',
+        description: 'קולקציית שמלות כלה אלגנטיות ועל-זמניות. חומרים פרמיום, תפירה מדויקת, עיצוב אישי.',
+      },
+    },
+  },
+
+  en: {
+    dir: 'ltr' as const,
+    lang: 'en',
+    nav: {
+      home: 'Home',
+      about: 'About',
+      dresses: 'Dresses',
+      process: 'How It Works',
+      reviews: 'Reviews',
+      book: 'Book',
+      faq: 'FAQ',
+      contact: 'Contact',
+      bookCta: 'Book a Fitting',
+    },
+    hero: {
+      eyebrow: 'Julie Karn Bridal',
+      headline: 'For the bride who\nchooses not to be\nlike everyone else.',
+      subheadline: 'Elegance. Perfect fit. Timeless design.',
+      cta: 'Book a fitting appointment',
+      ctaSub: 'Discover the dress that tells your story',
+    },
+    featured: {
+      eyebrow: 'The Collection',
+      headline: 'Dresses that tell a story',
+      subheadline: 'Each gown is born from premium fabrics, precise craftsmanship, and a design philosophy that transcends trends',
+      viewAll: 'View Full Collection',
+    },
+    designer: {
+      eyebrow: 'About the Designer',
+      headline: 'Julie Karn',
+      body1: 'I guide brides through one of the most significant moments of their lives — not just as a designer, but as someone who understands the power of the right dress.',
+      body2: 'Years of sewing experience, a deep understanding of garment construction, and the finest fabrics — together these create a wedding gown that is not only beautiful, but comfortable and truly right.',
+      body3: 'Every bride receives my complete, undivided attention. I believe every woman deserves a dress that honours her style, her body, and her personality.',
+      cta: 'Meet Julie',
+      experience: 'Years Experience',
+      brides: 'Happy Brides',
+      fabrics: 'Premium Fabrics',
+    },
+    process: {
+      eyebrow: 'The Process',
+      headline: 'Our journey together',
+      subheadline: 'From the dream to the wedding day — I am with you at every step',
+      steps: [
+        {
+          num: '01',
+          title: 'First Meeting',
+          body: 'We meet for an initial conversation with no obligation. We talk about your vision, your personal style, and what makes you — you.',
+        },
+        {
+          num: '02',
+          title: 'Personal Design',
+          body: 'I design the gown specifically for you — in the fabrics you chose, the silhouette you loved, with details that speak to you.',
+        },
+        {
+          num: '03',
+          title: 'Precise Fittings',
+          body: 'Several fitting appointments to ensure the gown sits exactly right. Every curve, every line — perfected.',
+        },
+        {
+          num: '04',
+          title: 'Your Wedding Day',
+          body: 'You arrive with complete confidence. We knew the gown would be exactly right — and now everyone can see it.',
+        },
+      ],
+      cta: 'Begin your journey',
+    },
+    reviews: {
+      eyebrow: 'Testimonials',
+      headline: 'What brides say',
+      items: [
+        {
+          quote: 'After visiting more than 10 different studios looking for a wedding dress, everything changed when I met Julie. Beyond the clean, elegant lines of her dresses, it was Julie herself who won me over — her gentleness, her ability to listen, her endless patience. The dress received far more compliments than I could have imagined. I recommend her wholeheartedly.',
+          name: 'נועה שכטר',
+          location: 'Google',
+          wedding: 'September 2025',
+        },
+        {
+          quote: 'Wow, Julie is simply amazing! Her close support in creating my wedding dress brought us to a result that was just perfect! Julie has a style you won\'t find everywhere — elegant, delicate, with clean lines. She works with the highest quality fabrics. I felt like a real princess. A designer of the highest level!',
+          name: 'Lea Ayelet Hasson',
+          location: 'Google',
+          wedding: 'February 2026',
+        },
+        {
+          quote: 'Julie is the perfect combination of immense talent and a sensitive, generous heart. People still ask me where the dress came from. A stunning experience — patient and thoughtful fittings, honest choices, measurements, alterations, and overall superb execution down to the smallest details. I haven\'t seen more beautiful dresses anywhere. I have no words to express my gratitude ♥️',
+          name: 'שירה דניאל הלוינג',
+          location: 'Google',
+          wedding: 'September 2025',
+        },
+        {
+          quote: 'My dearest Julia! Your approach — classic and artistic at heart — is unmatched. You work from the soul and did not leave my side until I was 200% satisfied!! Every meeting goes with endless patience and joy! Thank you from the bottom of my heart ❤️❤️❤️',
+          name: 'Daniella Engler shemesh',
+          location: 'Google',
+          wedding: 'December 2025',
+        },
+        {
+          quote: 'Julie is number one! First of all, a charming and pleasant woman, a true professional, with a sensitivity and attention to detail I haven\'t encountered before! I had an amazing experience of close and personal accompaniment. I recommend her to every bride who wants not only to feel like a princess, but to truly be one ♥️',
+          name: 'Maya Hovav',
+          location: 'Google',
+          wedding: 'November 2025',
+        },
+        {
+          quote: 'My impressions of visiting Julie\'s studio were simply perfect! The dresses are unique and unforgettable — each one a true work of art, with stunning fabrics and attention to the finest details. From the moment I walked in, I felt a personal, warm, and respectful approach — charming Julie made me feel like a bride even before I chose a dress.',
+          name: 'Darya Andreeva',
+          location: 'Google',
+          wedding: 'April 2025',
+        },
+      ],
+    },
+    booking: {
+      eyebrow: 'Book a Fitting',
+      headline: 'Ready to begin?',
+      subheadline: 'The first meeting is no obligation — just a pleasant conversation about your dream',
+      form: {
+        firstName: 'First Name',
+        lastName: 'Last Name',
+        phone: 'Phone',
+        email: 'Email',
+        date: 'Preferred fitting date',
+        message: 'Tell me a little about yourself and the dress you\'ve been dreaming of',
+        submit: 'Send Inquiry',
+        submitting: 'Sending...',
+        success: 'Thank you! I\'ll be in touch soon.',
+        error: 'Something went wrong. Please try again.',
+      },
+    },
+    faq: {
+      eyebrow: 'FAQ',
+      headline: 'Everything you need to know',
+      items: [
+        {
+          q: 'How long does the design process take?',
+          a: 'On average, 4–6 months from the first meeting to the wedding day. It\'s recommended to contact me 9–12 months before your date.',
+        },
+        {
+          q: 'What does the price include?',
+          a: 'The price includes the gown design, all fitting appointments, and personal guidance throughout the entire process. No surprises.',
+        },
+        {
+          q: 'Where is the studio located?',
+          a: 'The studio is located in Tel Aviv. Exact details are provided after booking an appointment.',
+        },
+        {
+          q: 'Can changes be made mid-process?',
+          a: 'Yes — flexibility is part of my service. We work together until everything feels exactly right.',
+        },
+        {
+          q: 'Can I bring someone to the appointment?',
+          a: 'Absolutely! Bringing your mother, sister, or closest friend can make the appointment even more special.',
+        },
+        {
+          q: 'What is the price range?',
+          a: 'Gowns start from ₪8,000. The final price depends on the design, fabrics, and complexity. We\'ll discuss your budget at the first meeting.',
+        },
+      ],
+    },
+    contact: {
+      eyebrow: 'Contact',
+      headline: 'Let\'s talk',
+      subheadline: 'Questions? Feel free to write, call, or visit the studio',
+      phone: '+972-54-896-48-28',
+      email: 'julykarnbridal@gmail.com',
+      instagram: '@juliekarn.bridal',
+      address: 'Tel Aviv, Israel',
+      hours: 'Sun–Thu: 10:00–20:00 | Fri: 10:00–14:00',
+    },
+    footer: {
+      tagline: 'For the bride who chooses not to be like everyone else.',
+      links: {
+        dresses: 'Wedding Dresses',
+        about: 'About',
+        process: 'How It Works',
+        book: 'Book a Fitting',
+        contact: 'Contact',
+        privacy: 'Privacy Policy',
+      },
+      copyright: '© 2025 Julie Karn Bridal. All rights reserved.',
+      madeBy: 'Crafted with love',
+    },
+    seo: {
+      home: {
+        title: 'Julie Karn Bridal | Custom Wedding Dresses | Tel Aviv',
+        description: 'Minimalist and elegant custom wedding gowns. For the bride who chooses not to be like everyone else. Studio in Tel Aviv, Israel.',
+      },
+      dresses: {
+        title: 'Wedding Dress Collection | Julie Karn Bridal',
+        description: 'Elegant, timeless wedding gowns. Premium fabrics, precise tailoring, personal design.',
+      },
+    },
+  },
+} as const
+
+export type Translations = typeof translations.he

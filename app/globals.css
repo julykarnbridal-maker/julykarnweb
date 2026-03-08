@@ -1,0 +1,287 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ─── Base ─────────────────────────────────────── */
+:root {
+  --cream: #F6F1EB;
+  --ivory: #EDE5DA;
+  --warm-white: #FAFAF8;
+  --taupe: #8B7E74;
+  --warm-grey: #9E9590;
+  --charcoal: #1A1614;
+  --dark: #0F0D0C;
+  --gold: #C4A882;
+  --muted-blue: #6B7F8E;
+  --text-primary: #1A1614;
+  --text-secondary: #6B6460;
+  --text-muted: #9E9590;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: var(--warm-white);
+  color: var(--text-primary);
+  font-family: var(--font-inter), system-ui, sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+/* ─── Typography ────────────────────────────────── */
+h1, h2, h3, h4 {
+  font-family: var(--font-cormorant), Georgia, serif;
+  font-weight: 300;
+  line-height: 1.05;
+  letter-spacing: -0.02em;
+}
+
+/* ─── Hebrew fonts (RTL) ────────────────────────── */
+[dir='rtl'] body {
+  font-family: var(--font-heebo), Arial, sans-serif;
+  letter-spacing: 0;
+}
+
+[dir='rtl'] h1,
+[dir='rtl'] h2,
+[dir='rtl'] h3,
+[dir='rtl'] h4,
+[dir='rtl'] .font-serif {
+  font-family: var(--font-frank-ruhl), serif;
+  letter-spacing: 0;
+}
+
+[dir='rtl'] .eyebrow {
+  font-family: var(--font-heebo), Arial, sans-serif;
+  letter-spacing: 0.06em;
+}
+
+/* ─── Scrollbar ─────────────────────────────────── */
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: var(--cream);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--taupe);
+  border-radius: 2px;
+}
+
+/* ─── Selection ─────────────────────────────────── */
+::selection {
+  background: var(--gold);
+  color: var(--charcoal);
+}
+
+/* ─── Utilities ─────────────────────────────────── */
+.container-luxury {
+  width: 100%;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: clamp(1.5rem, 5vw, 5rem);
+  padding-right: clamp(1.5rem, 5vw, 5rem);
+}
+
+.section-padding {
+  padding-top: clamp(5rem, 10vw, 9rem);
+  padding-bottom: clamp(5rem, 10vw, 9rem);
+}
+
+/* ─── Eyebrow label ─────────────────────────────── */
+.eyebrow {
+  font-family: var(--font-inter), system-ui, sans-serif;
+  font-size: 0.688rem;
+  font-weight: 400;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--taupe);
+}
+
+/* ─── Thin line dividers ────────────────────────── */
+.line-accent {
+  width: 3rem;
+  height: 1px;
+  background: var(--gold);
+}
+
+/* ─── Button styles ─────────────────────────────── */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem 2.5rem;
+  background: var(--charcoal);
+  color: var(--cream);
+  font-family: var(--font-inter), system-ui, sans-serif;
+  font-size: 0.813rem;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: background 0.4s cubic-bezier(0.25, 0.1, 0.25, 1);
+  cursor: pointer;
+  border: none;
+}
+
+.btn-primary:hover {
+  background: var(--taupe);
+}
+
+.btn-outline {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.875rem 2.25rem;
+  background: transparent;
+  color: var(--charcoal);
+  font-family: var(--font-inter), system-ui, sans-serif;
+  font-size: 0.813rem;
+  font-weight: 400;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 1px solid currentColor;
+  transition: all 0.4s cubic-bezier(0.25, 0.1, 0.25, 1);
+  cursor: pointer;
+}
+
+.btn-outline:hover {
+  background: var(--charcoal);
+  color: var(--cream);
+  border-color: var(--charcoal);
+}
+
+.btn-ghost {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0;
+  background: transparent;
+  color: var(--charcoal);
+  font-family: var(--font-inter), system-ui, sans-serif;
+  font-size: 0.813rem;
+  font-weight: 400;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  position: relative;
+}
+
+.btn-ghost::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background: currentColor;
+  transition: width 0.4s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.btn-ghost:hover::after {
+  width: 100%;
+}
+
+/* RTL button ghost underline */
+[dir='rtl'] .btn-ghost::after {
+  left: auto;
+  right: 0;
+}
+
+/* ─── Image hover ───────────────────────────────── */
+.img-hover {
+  overflow: hidden;
+}
+
+.img-hover img {
+  transition: transform 0.8s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+
+.img-hover:hover img {
+  transform: scale(1.04);
+}
+
+/* ─── Horizontal rule ───────────────────────────── */
+.hr-luxury {
+  border: none;
+  border-top: 1px solid rgba(26, 22, 20, 0.1);
+}
+
+/* ─── Form inputs ───────────────────────────────── */
+.input-luxury {
+  width: 100%;
+  padding: 1rem 0;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(26, 22, 20, 0.2);
+  font-family: var(--font-inter), system-ui, sans-serif;
+  font-size: 0.938rem;
+  font-weight: 300;
+  color: var(--charcoal);
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.input-luxury::placeholder {
+  color: var(--text-muted);
+}
+
+.input-luxury:focus {
+  border-color: var(--charcoal);
+}
+
+textarea.input-luxury {
+  resize: none;
+  min-height: 120px;
+}
+
+/* RTL input alignment */
+[dir='rtl'] .input-luxury {
+  text-align: right;
+}
+
+/* ─── Fade-in animation ─────────────────────────── */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+}
+
+.reveal.is-visible {
+  animation: fadeUp 0.8s cubic-bezier(0.25, 0.1, 0.25, 1) forwards;
+}
+
+/* ─── Hero video overlay ────────────────────────── */
+.hero-overlay {
+  background: linear-gradient(
+    to bottom,
+    rgba(15, 13, 12, 0.65) 0%,
+    rgba(15, 13, 12, 0.25) 40%,
+    rgba(15, 13, 12, 0.55) 100%
+  );
+}

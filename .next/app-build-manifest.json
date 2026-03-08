@@ -1,0 +1,232 @@
+{
+  "pages": {
+    "/_not-found/page": [
+      "static/chunks/webpack-9ab4056378c784bd.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-ebd51be49873d76c.js",
+      "static/chunks/main-app-9ef5676c0e3a3738.js",
+      "static/chunks/app/_not-found/page-52ba637eea5762f3.js"
+    ],
+    "/api/instagram/route": [
+      "static/chunks/webpack-9ab4056378c784bd.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-ebd51be49873d76c.js",
+      "static/chunks/main-app-9ef5676c0e3a3738.js",
+      "static/chunks/app/api/instagram/route-5251a329e8d641d7.js"
+    ],
+    "/layout": [
+      "static/chunks/webpack-9ab4056378c784bd.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-ebd51be49873d76c.js",
+      "static/chunks/main-app-9ef5676c0e3a3738.js",
+      "static/css/bb246fee585b3112.css",
+      "static/css/a2f902508ced42f8.css",
+      "static/chunks/app/layout-a040b9e8583aad1e.js"
+    ],
+    "/api/lead/route": [
+      "static/chunks/webpack-9ab4056378c784bd.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-ebd51be49873d76c.js",
+      "static/chunks/main-app-9ef5676c0e3a3738.js",
+      "static/chunks/app/api/lead/route-5251a329e8d641d7.js"
+    ],
+    "/robots.txt/route": [
+      "static/chunks/webpack-9ab4056378c784bd.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-ebd51be49873d76c.js",
+      "static/chunks/main-app-9ef5676c0e3a3738.js",
+      "static/chunks/app/robots.txt/route-5251a329e8d641d7.js"
+    ],
+    "/sitemap.xml/route": [
+      "static/chunks/webpack-9ab4056378c784bd.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-ebd51be49873d76c.js",
+      "static/chunks/main-app-9ef5676c0e3a3738.js",
+      "static/chunks/app/sitemap.xml/route-5251a329e8d641d7.js"
+    ],
+    "/book/page": [
+      "static/chunks/webpack-9ab4056378c784bd.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-ebd51be49873d76c.js",
+      "static/chunks/main-app-9ef5676c0e3a3738.js",
+      "static/chunks/604-4a6af8cea22be043.js",
+      "static/chunks/736-7e6ac79e03f8038b.js",
+      "static/chunks/252-0954548ec6c2906a.js",
+      "static/chunks/app/book/page-b2eddba14df5d4a0.js"
+    ],
+    "/about/page": [
+      "static/chunks/webpack-9ab4056378c784bd.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-ebd51be49873d76c.js",
+      "static/chunks/main-app-9ef5676c0e3a3738.js",
+      "static/chunks/604-4a6af8cea22be043.js",
+      "static/chunks/356-1ae4a496cefe0fa8.js",
+      "static/chunks/736-7e6ac79e03f8038b.js",
+      "static/chunks/252-0954548ec6c2906a.js",
+      "static/chunks/app/about/page-74b8b8f846bad363.js"
+    ],
+    "/contact/page": [
+      "static/chunks/webpack-9ab4056378c784bd.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-ebd51be49873d76c.js",
+      "static/chunks/main-app-9ef5676c0e3a3738.js",
+      "static/chunks/604-4a6af8cea22be043.js",
+      "static/chunks/736-7e6ac79e03f8038b.js",
+      "static/chunks/252-0954548ec6c2906a.js",
+      "static/chunks/app/contact/page-0fa1fe99be3e166f.js"
+    ],
+    "/dresses/page": [
+      "static/chunks/webpack-9ab4056378c784bd.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-ebd51be49873d76c.js",
+      "static/chunks/main-app-9ef5676c0e3a3738.js",
+      "static/chunks/604-4a6af8cea22be043.js",
+      "static/chunks/356-1ae4a496cefe0fa8.js",
+      "static/chunks/736-7e6ac79e03f8038b.js",
+      "static/chunks/252-0954548ec6c2906a.js",
+      "static/chunks/app/dresses/page-d7c926823a57dcc6.js"
+    ],
+    "/blog/page": [
+      "static/chunks/webpack-9ab4056378c784bd.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-ebd51be49873d76c.js",
+      "static/chunks/main-app-9ef5676c0e3a3738.js",
+      "static/chunks/604-4a6af8cea22be043.js",
+      "static/chunks/356-1ae4a496cefe0fa8.js",
+      "static/chunks/736-7e6ac79e03f8038b.js",
+      "static/chunks/252-0954548ec6c2906a.js",
+      "static/chunks/app/blog/page-8c82f160bb4bb413.js"
+    ],
+    "/faq/page": [
+      "static/chunks/webpack-9ab4056378c784bd.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-ebd51be49873d76c.js",
+      "static/chunks/main-app-9ef5676c0e3a3738.js",
+      "static/chunks/604-4a6af8cea22be043.js",
+      "static/chunks/736-7e6ac79e03f8038b.js",
+      "static/chunks/252-0954548ec6c2906a.js",
+      "static/chunks/app/faq/page-91767bfb688e60b3.js"
+    ],
+    "/process/page": [
+      "static/chunks/webpack-9ab4056378c784bd.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-ebd51be49873d76c.js",
+      "static/chunks/main-app-9ef5676c0e3a3738.js",
+      "static/chunks/604-4a6af8cea22be043.js",
+      "static/chunks/736-7e6ac79e03f8038b.js",
+      "static/chunks/252-0954548ec6c2906a.js",
+      "static/chunks/app/process/page-3f555514a3ee1aef.js"
+    ],
+    "/privacy/page": [
+      "static/chunks/webpack-9ab4056378c784bd.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-ebd51be49873d76c.js",
+      "static/chunks/main-app-9ef5676c0e3a3738.js",
+      "static/chunks/604-4a6af8cea22be043.js",
+      "static/chunks/252-0954548ec6c2906a.js",
+      "static/chunks/app/privacy/page-424bd20dd7b6f120.js"
+    ],
+    "/reviews/page": [
+      "static/chunks/webpack-9ab4056378c784bd.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-ebd51be49873d76c.js",
+      "static/chunks/main-app-9ef5676c0e3a3738.js",
+      "static/chunks/604-4a6af8cea22be043.js",
+      "static/chunks/736-7e6ac79e03f8038b.js",
+      "static/chunks/252-0954548ec6c2906a.js",
+      "static/chunks/app/reviews/page-f240e263c8f63ea7.js"
+    ],
+    "/elegant-wedding-dresses/page": [
+      "static/chunks/webpack-9ab4056378c784bd.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-ebd51be49873d76c.js",
+      "static/chunks/main-app-9ef5676c0e3a3738.js",
+      "static/chunks/604-4a6af8cea22be043.js",
+      "static/chunks/356-1ae4a496cefe0fa8.js",
+      "static/chunks/252-0954548ec6c2906a.js",
+      "static/chunks/app/elegant-wedding-dresses/page-bb3ce6231dd107dd.js"
+    ],
+    "/blog/[slug]/page": [
+      "static/chunks/webpack-9ab4056378c784bd.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-ebd51be49873d76c.js",
+      "static/chunks/main-app-9ef5676c0e3a3738.js",
+      "static/chunks/604-4a6af8cea22be043.js",
+      "static/chunks/356-1ae4a496cefe0fa8.js",
+      "static/chunks/736-7e6ac79e03f8038b.js",
+      "static/chunks/252-0954548ec6c2906a.js",
+      "static/chunks/app/blog/[slug]/page-7a15c5fbb82fd113.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-9ab4056378c784bd.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-ebd51be49873d76c.js",
+      "static/chunks/main-app-9ef5676c0e3a3738.js",
+      "static/chunks/604-4a6af8cea22be043.js",
+      "static/chunks/356-1ae4a496cefe0fa8.js",
+      "static/chunks/736-7e6ac79e03f8038b.js",
+      "static/chunks/726-b6127e1ce521c8e9.js",
+      "static/chunks/252-0954548ec6c2906a.js",
+      "static/chunks/app/page-bc653a36410d5a43.js"
+    ],
+    "/minimalist-wedding-dresses/page": [
+      "static/chunks/webpack-9ab4056378c784bd.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-ebd51be49873d76c.js",
+      "static/chunks/main-app-9ef5676c0e3a3738.js",
+      "static/chunks/604-4a6af8cea22be043.js",
+      "static/chunks/356-1ae4a496cefe0fa8.js",
+      "static/chunks/252-0954548ec6c2906a.js",
+      "static/chunks/app/minimalist-wedding-dresses/page-bb3ce6231dd107dd.js"
+    ],
+    "/timeless-wedding-dresses/page": [
+      "static/chunks/webpack-9ab4056378c784bd.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-ebd51be49873d76c.js",
+      "static/chunks/main-app-9ef5676c0e3a3738.js",
+      "static/chunks/604-4a6af8cea22be043.js",
+      "static/chunks/356-1ae4a496cefe0fa8.js",
+      "static/chunks/252-0954548ec6c2906a.js",
+      "static/chunks/app/timeless-wedding-dresses/page-bb3ce6231dd107dd.js"
+    ],
+    "/shimot-kala-itzuv-ishi/page": [
+      "static/chunks/webpack-9ab4056378c784bd.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-ebd51be49873d76c.js",
+      "static/chunks/main-app-9ef5676c0e3a3738.js",
+      "static/chunks/604-4a6af8cea22be043.js",
+      "static/chunks/356-1ae4a496cefe0fa8.js",
+      "static/chunks/252-0954548ec6c2906a.js",
+      "static/chunks/app/shimot-kala-itzuv-ishi/page-bb3ce6231dd107dd.js"
+    ],
+    "/tel-aviv/page": [
+      "static/chunks/webpack-9ab4056378c784bd.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-ebd51be49873d76c.js",
+      "static/chunks/main-app-9ef5676c0e3a3738.js",
+      "static/chunks/604-4a6af8cea22be043.js",
+      "static/chunks/252-0954548ec6c2906a.js",
+      "static/chunks/app/tel-aviv/page-ac5d7fc71f16a158.js"
+    ],
+    "/shimot-kala-elegantiot-tel-aviv/page": [
+      "static/chunks/webpack-9ab4056378c784bd.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-ebd51be49873d76c.js",
+      "static/chunks/main-app-9ef5676c0e3a3738.js",
+      "static/chunks/604-4a6af8cea22be043.js",
+      "static/chunks/356-1ae4a496cefe0fa8.js",
+      "static/chunks/252-0954548ec6c2906a.js",
+      "static/chunks/app/shimot-kala-elegantiot-tel-aviv/page-bb3ce6231dd107dd.js"
+    ],
+    "/shimot-kala-minimalistiot-tel-aviv/page": [
+      "static/chunks/webpack-9ab4056378c784bd.js",
+      "static/chunks/4bd1b696-c023c6e3521b1417.js",
+      "static/chunks/255-ebd51be49873d76c.js",
+      "static/chunks/main-app-9ef5676c0e3a3738.js",
+      "static/chunks/604-4a6af8cea22be043.js",
+      "static/chunks/356-1ae4a496cefe0fa8.js",
+      "static/chunks/252-0954548ec6c2906a.js",
+      "static/chunks/app/shimot-kala-minimalistiot-tel-aviv/page-bb3ce6231dd107dd.js"
+    ]
+  }
+}
