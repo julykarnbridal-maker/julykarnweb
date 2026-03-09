@@ -94,12 +94,11 @@ const CONTENT = {
   },
 }
 
-// Placeholder images — replace with real photos of Julie and studio
-const HERO_IMAGE = 'https://images.unsplash.com/photo-1551803091-e20673f15770?w=900&q=85&fit=crop'
-const STORY_IMAGE = 'https://images.unsplash.com/photo-1594552072238-b8a33785b6cd?w=900&q=85&fit=crop'
+const HERO_IMAGE = '/about/hero.JPG'
+const STORY_IMAGE = '/about/story.JPG'
 const CRAFT_IMAGES = [
-  'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&q=85&fit=crop',
-  'https://images.unsplash.com/photo-1583939003579-730e3918a45a?w=600&q=85&fit=crop',
+  '/about/craft-1.JPG',
+  '/about/craft-2.JPG',
 ]
 
 const schema = {
