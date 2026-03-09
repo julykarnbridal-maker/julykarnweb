@@ -5,7 +5,7 @@ import Link from 'next/link'
 import { useLanguage } from '@/hooks/useLanguage'
 import RevealAnimation from '@/components/ui/RevealAnimation'
 
-const DESIGNER_IMAGE = 'https://images.unsplash.com/photo-1551803091-e20673f15770?w=900&q=85&fit=crop'
+const DESIGNER_IMAGE = '/designer.JPG'
 
 const STATS = [
   { value: '15+', key: 'experience' },
